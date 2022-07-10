@@ -1,0 +1,94 @@
+//book
+(1,"Author1","Cat1","Desc 1","ISBNISBN1","NAME1","img.url/b/1","Publisher1")
+(2,"Author2","Cat2","Desc 2","ISBNISBN2","NAME2","img.url/b/2","Publisher2")
+(3,"Author1","Cat2","Desc 3","ISBNISBN3","NAME3","img.url/b/3","Publisher1")
+(4,"Author3","Cat3","Desc 4","ISBNISBN4","NAME4","img.url/b/4","Publisher2")
+(5,"Author4","Cat1","Desc 5","ISBNISBN5","NAME5","img.url/b/5","Publisher2")
+
+//student
+(12,"Address1","Dep1",CURDATE(),"email1@gmail.com","SNAME1",9999999999,"img.url/s/1",ROLL1,CURDATE()+100)
+(13,"Address2","Dep2",CURDATE(),"email2@gmail.com","SNAME2",9199999999,"img.url/s/2",ROLL2,CURDATE()+100)
+(14,"Address3","Dep2",CURDATE(),"email3@gmail.com","SNAME3",9299999999,"img.url/s/3",ROLL3,CURDATE()+100)
+(15,"Address4","Dep1",CURDATE(),"email4@gmail.com","SNAME4",9399999999,"img.url/s/4",ROLL4,CURDATE()+100)
+(16,"Address6","Dep1",CURDATE(),"email5@gmail.com","SNAME5",9499999999,"img.url/s/6",ROLL5,CURDATE()+100)
+(17,"Address7","Dep3",CURDATE(),"email6@gmail.com","SNAME6",9599999999,"img.url/s/7",ROLL6,CURDATE()+100)
+
+{
+        "isbn": "ISBNISBN4",
+        "name": "NAME4",
+        "description": "Desc 4",
+        "author": "Author4",
+        "category": "Cat4",
+        "publisher": "Publisher4",
+        "photo": "img.url/b/4"
+    }
+
+{
+        "name": "SNAME1",
+        "rollNumber": "ROLL1",
+        "email": "email1@gmail.com",
+        "department": "Dep1",
+        "address": "Address1",
+        "dob": "2022-06-27",
+        "subscriptionExpiryDate": "2022-07-27",
+        "phoneNumber": 9999999999,
+        "photo": "img.url/s/1"
+    }
+
+----------------------
+[
+    {
+        "isbn": "ISBNISBN1",
+        "name": "NAME1",
+        "description": "Desc 1",
+        "author": "Author1",
+        "category": "Cat1",
+        "publisher": "Publisher1",
+        "photo": "img.url/b/1"
+    },
+    {
+        "isbn": "ISBNISBN2",
+        "name": "NAME2",
+        "description": "Desc 2",
+        "author": "Author2",
+        "category": "Cat2",
+        "publisher": "Publisher2",
+        "photo": "img.url/b/2"
+    },
+    {
+        "isbn": "ISBNISBN4",
+        "name": "NAME4",
+        "description": "Desc 4",
+        "author": "Author4",
+        "category": "Cat4",
+        "publisher": "Publisher4",
+        "photo": "img.url/b/4"
+    }
+]
+
+-----
+
+[
+    {
+        "name": "SNAME2",
+        "rollNumber": "ROLL2",
+        "email": "email2@gmail.com",
+        "department": "Dep2",
+        "address": "Address2",
+        "dob": "2022-06-27",
+        "subscriptionExpiryDate": "2022-07-27",
+        "phoneNumber": 9999929999,
+        "photo": "img.url/s/2"
+    },
+    {
+        "name": "SNAME3",
+        "rollNumber": "ROLL3",
+        "email": "email3@gmail.com",
+        "department": "Dep3",
+        "address": "Address3",
+        "dob": "2022-06-27",
+        "subscriptionExpiryDate": "2022-07-27",
+        "phoneNumber": 9993929999,
+        "photo": "img.url/s/3"
+    }
+]
